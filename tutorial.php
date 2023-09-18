@@ -14,15 +14,9 @@
 <div class="div1"><img src="./UR logo.png" ></div>
 <div class="div2">
     <h1>university of Rwanda online library</h1>
-<h2>welcome to online library, a service
-    dedicated to students of university of Rwanda community.
-    we provide online resources ,
-    professional support and guidance to all our students
-    whenever and wherever they are.</h2>
+<h2>These support resources are here to help you resolve problems and make the best use of the Online Library.</h2>
 </div>
 <div class="div3">
-    <button class="login"><a href="login.html">login</a> </button>
-    <button class="signup"><a href="signup.html" >signup</a></button>
     <div class="search-container">
         <form action="#" >
           <input  type="text" placeholder="Search.." name="search">
@@ -33,11 +27,11 @@
 
 </div>
 <div class="topnav">
-    <a  href="home.html">Home</a>
-    <a  href="resources.html">resources</a>
-    <a href="studyprogram.html">study program</a>
-    <a class="active" href="studentsupp.html">student support</a>
-    <a href="about.html">About</a>
+    <a  href="home.php">Home</a>
+    <a  href="resources.php">resources</a>
+    <a href="studyprogram.php">study program</a>
+    <a class="active" href="studentsupp.php">student support</a>
+    <a href="about.php">About</a>
 </div>
 <div class="second part">
 <div class="container">
@@ -52,7 +46,8 @@
         <a href="#" >online library enquiry <br> services</a>
 
 </div>
-
+<div><h1>The Online Library produces tutorials to help you understand how best to use the Online Library. 
+    <br>This page contains links to some tutorials</h1></div>
 
 
 </div>

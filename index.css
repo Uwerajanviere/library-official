@@ -1,0 +1,95 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+
+height: 100vh;
+width: 100%;
+background-image: url('5.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+transition: 5s;
+animation-name:animate ;
+animation-direction:alternate-reverse ;
+animation-duration:15s ;
+animation-fill-mode:forwards;
+animation-iteration-count:infinite ;
+animation-play-state:running;
+animation-timing-function:ease-in-out ;
+}
+@keyframes animate{
+    0%{
+        background-image: url('6.jpg');
+    }
+    50%{
+        background-image: url('2.jpg');
+    
+}
+}
+button{
+    float: right;
+    padding: 20px;
+    background-color: rgb(68, 138, 235);
+    border: none;
+border-radius: 5px; 
+margin-right: 5rem;
+margin-top: 1px;
+}
+button a{
+
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.signup{
+
+margin-right: 2rem;}
+.div1sub{
+font-size: 15px;
+text-align: center;
+color: rgb(228, 232, 242);
+width: 70rem;
+margin-right:20px ;
+
+}
+h1{
+text-align: center;
+color: rgb(231, 237, 247);
+
+}
+h2{
+    padding: 5px;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows:25rem  ;
+}
+h3{
+
+    color: rgb(30, 123, 238);
+font-size: 20px;
+text-align: center;}
+.divcontainerfooter{
+
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows:15rem  ;
+    color: rgb(19, 17, 17);
+    background-color: rgb(192, 233, 240);
+}
+.divcontainerfooter a{
+color: rgb(11, 83, 238);
+padding: 10px;
+text-decoration: none;
+ border-radius: 5px;
+ font-size: 20px;
+
+}

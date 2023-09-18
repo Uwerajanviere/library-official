@@ -10,7 +10,7 @@
   <div class="signupform">
     <div class="title">
       signup to your new account
-   </div>    <form action="signup-process.php" method="post">
+   </div>    <form action="signupconnect.php" method="post">
 <label for="fname" ><b>firstname:</b></label><br>
 <input type="text" placeholder="enter firstname" name="fname"><br>
 <labe for="lname" ><b>lastname:</b></label><br>

@@ -14,15 +14,11 @@
 <div class="div1"><img src="./UR logo.png" ></div>
 <div class="div2">
     <h1>university of Rwanda online library</h1>
-<h2>welcome to online library, a service
-    dedicated to students of university of Rwanda community.
-    we provide online resources ,
-    professional support and guidance to all our students
-    whenever and wherever they are.</h2>
+<h2>Please choose your study programme to see which resources you can access.</h2>
 </div>
 <div class="div3">
-    <button class="login"><a href="login.html">login</a> </button>
-    <button class="signup"><a href="signup.html" >signup</a></button>
+    <button class="login"><a href="login.php">login</a> </button>
+    <button class="signup"><a href="signup.php" >signup</a></button>
     <div class="search-container">
         <form action="#" >
           <input  type="text" placeholder="Search.." name="search">
@@ -33,17 +29,15 @@
 
 </div>
 <div class="topnav">
-    <a  href="home.html">Home</a>
-    <a href="resources.html">resources</a>
-    <a class="active" href="studyprogram.html">study program</a>
-    <a href="studentsupp.html">student support</a>
-    <a href="about.html">About</a>
+    <a  href="home.php">Home</a>
+    <a href="resources.php">resources</a>
+    <a class="active" href="studyprogram.php">study program</a>
+    <a href="studentsupp.php">student support</a>
 </div>
     <div class="select">
 <h1>Select your Study Programme
 </h1>
-<h3>Please choose your study programme to see which resources you can access
-</h3>
+
 <p>When you select your study programme a list of databases you are able to access through <br>that programme will be shown along with other useful resources suggested by your programme.
 
 </p>
